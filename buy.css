@@ -1,0 +1,32 @@
+.item{
+    width: 100%;
+}
+.in{
+    display: grid;
+    grid-template-areas: "img img con con con con";
+    border: 2px solid gray;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+.checked {
+    color: orange;
+  }
+.img{
+    max-height: 250px;
+    min-width: 60%;
+    grid-area: img;
+}
+.content{
+    grid-area: con;
+}
+.btn{
+    border: 2px solid rgb(201, 199, 109);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 30px;
+    min-width: 15%;
+}
+.btn:hover{
+    color: rgb(128, 104, 104);
+}

@@ -2,12 +2,12 @@
 //  Your web app's Firebase configuration
 //----------------------------------------
 var firebaseConfig = {
-    apiKey: "AIzaSyBcT0_RYtb0rqM9grEoQDGeuwcFu8gDhSo",
-    authDomain: "fir-comp1800-2022.firebaseapp.com",
-    projectId: "fir-comp1800-2022",
-    storageBucket: "fir-comp1800-2022.appspot.com",
-    messagingSenderId: "506310735406",
-    appId: "1:506310735406:web:781e32dc615e4447be91bf"
+    apiKey: "AIzaSyDDu6jJ6sNfxBpXZ1wRnQ4Q70u6ywb9e54",
+    authDomain: "tradeolypics.firebaseapp.com",
+    projectId: "tradeolypics",
+    storageBucket: "tradeolypics.appspot.com",
+    messagingSenderId: "468777710334",
+    appId: "1:468777710334:web:5275ac60ea5fbc91106baf"
 };
 
 //--------------------------------------------

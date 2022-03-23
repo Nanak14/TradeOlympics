@@ -1,13 +1,4 @@
-function read_display_Quote(){
-    //console.log("inside the function")
-    
-    db.collection("Quotes").doc("Tuesday")
-    .onSnapshot(function(TuesdayDoc) {
-        console.log(TuesdayDoc.data());
-        document.getElementById("quote-goes-here").innerHTML=TuesdayDoc.data().quote;
-    })
-}
-read_display_Quote();
+
 
 function insertName(){
     firebase.auth().onAuthStateChanged(user =>{
@@ -24,3 +15,11 @@ function insertName(){
 }
 
 insertName();
+
+document.getElementById("buy").onclick = () => {
+    location.href = "buy.html";
+}
+
+document.getElementById("upload").onclick = () => {
+    location.href = "upload.html";
+}
